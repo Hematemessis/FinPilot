@@ -1,0 +1,7 @@
+flag_id,severity,entity,period,area,issue,impact,recommended_fix,source_id,status
+QA-001,high,贵州茅台,H1 2026,cash_flow,经营现金流明显受财务公司成员单位存款和同业存款变动影响,不能直接把438.84%的同比增幅解释为白酒主业现金转化改善,拆分财务公司与白酒主业现金流后再判断现金质量,SRC-MT-H1-2026,open
+QA-002,high,贵州茅台,Latest,valuation,缺少授权实时价格与未来十二个月一致预期,不能输出可执行的动态市盈率或目标价,接入授权行情和一致预期并保留时间戳与分析师覆盖口径,SRC-MT-H1-2026,open
+QA-003,high,腾讯控股,Latest,valuation,缺少授权实时价格与未来十二个月一致预期,不能输出可执行的动态市盈率或目标价,接入授权行情和一致预期并保留时间戳与分析师覆盖口径,SRC-TC-H1-2026,open
+QA-004,medium,腾讯控股,H1 2026,audit_status,中期财务信息未经审计,可用于最新研究但不应等同于年度审计结论,下一份经审计年报发布后复核,SRC-TC-H1-2026,open
+QA-005,medium,贵州茅台和腾讯控股,Latest,news,未接入授权财经新闻源,当前事件层只使用公司和交易所官方披露,接入有版权和稳定接口的新闻源并区分事实与评论,SRC-MT-H1-2026,open
+QA-006,medium,贵州茅台和腾讯控股,All,scope,当前归一化包只覆盖研究卡所需的关键财务指标而非完整三张表,不能标记为完整模型加载包,如需DCF或完整估值需继续提取全量报表和驱动项,SRC-TC-H1-2026,open

@@ -1,0 +1,10 @@
+check_id,area,period,test,expected_value,observed_value,variance,result,source_id,notes
+VC-001,provenance,All,每个归一化行的source_id都存在于Source_Index,0 missing,0 missing,0,pass,SRC-MT-FY2025,程序化测试覆盖
+VC-002,period,All,所有归一化行都有明确period_end,0 missing,0 missing,0,pass,SRC-MT-H1-2026,报告期末来自官方报告
+VC-003,units,All,所有归一化行都有currency和units,0 missing,0 missing,0,pass,SRC-TC-H1-2026,未做跨币种换算
+VC-004,headline_tieout,FY2025,贵州茅台归母净利润与官方主要会计数据一致,82320.067102,82320.067102,0,pass,SRC-MT-FY2025,单位为人民币百万元
+VC-005,headline_tieout,H1 2026,贵州茅台归母净利润与官方主要会计数据一致,44516.880422,44516.880422,0,pass,SRC-MT-H1-2026,单位为人民币百万元
+VC-006,headline_tieout,FY2025,腾讯归母净利润与官方Financial Summary一致,224842,224842,0,pass,SRC-TC-FY2025,单位为人民币百万元
+VC-007,headline_tieout,H1 2026,腾讯归母净利润与官方Financial Performance Highlights一致,114115,114115,0,pass,SRC-TC-H1-2026,单位为人民币百万元
+VC-008,cash_flow,FY2025,腾讯经营活动现金流净额与现金流量表一致,303052,303052,0,pass,SRC-TC-FY2025,单位为人民币百万元
+VC-009,cash_flow,H1 2026,腾讯经营活动现金流净额与现金流量表一致,154061,154061,0,pass,SRC-TC-H1-2026,单位为人民币百万元且未经审计

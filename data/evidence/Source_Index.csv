@@ -1,0 +1,6 @@
+source_id,source_name,source_type,owner_or_provider,period_covered,as_of_date,retrieved_at,file_tab_page_url_or_location,source_rank,freshness_status,notes
+SRC-MT-FY2025,贵州茅台2025年年度报告,filing,上海证券交易所,FY2025,2025-12-31,2026-08-28,https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-17/600519_20260417_9QS4.pdf | PDF p.6,3,acceptable_for_period,经审计年度报告；页面为主要会计数据和财务指标
+SRC-MT-Q1-2026,贵州茅台2026年第一季度报告,filing,上海证券交易所,Q1 2026,2026-03-31,2026-08-28,https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-25/600519_20260425_G9JL.pdf | PDF p.1,3,acceptable_for_period,未经审计季度报告；页面为主要财务数据
+SRC-MT-H1-2026,贵州茅台2026年半年度报告,filing,上海证券交易所,H1 2026,2026-06-30,2026-08-28,https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-15/600519_20260815_UXBN.pdf | PDF p.5,3,current,半年度报告；经营现金流受财务公司成员单位存款影响
+SRC-TC-FY2025,Tencent Annual Report 2025,filing,Tencent Holdings Limited,FY2025,2025-12-31,2026-08-28,https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf | PDF p.4 and p.139,3,acceptable_for_period,经审计年度报告英文版；财务摘要及现金流量表
+SRC-TC-H1-2026,Tencent Interim Report 2026,filing,Tencent Holdings Limited,H1 2026,2026-06-30,2026-08-28,https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf | PDF p.5 and p.34,3,current,未经审计中期报告英文版；财务表现摘要及现金流量表

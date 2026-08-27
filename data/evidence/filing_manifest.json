@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-08-28",
+  "readiness": "research_grade_headline_financials",
+  "files": [
+    {
+      "path": "data/evidence/filings/600519/600519_2025_annual_report.pdf",
+      "pages": 143,
+      "bytes": 1082847,
+      "sha256": "474905DEEAF0F875FC0A1B097A626C0C7852C427FAADC5D7FC7816CBF45EA288",
+      "tracked_in_git": false
+    },
+    {
+      "path": "data/evidence/filings/600519/600519_2026_q1_report.pdf",
+      "pages": 12,
+      "bytes": 158374,
+      "sha256": "CA10D0E4FB3A1E4E9F258C04FC4C62000968F337A9B0BF6F714D4F153536D363",
+      "tracked_in_git": false
+    },
+    {
+      "path": "data/evidence/filings/600519/600519_2026_interim_report.pdf",
+      "pages": 110,
+      "bytes": 832321,
+      "sha256": "0E10AA26BE46B1CF3CD03F06E834C7FB98D5DD0D661B96F8FDDD4AF7E846A4F6",
+      "tracked_in_git": false
+    },
+    {
+      "path": "data/evidence/filings/00700/00700_2025_annual_report_en.pdf",
+      "pages": 282,
+      "bytes": 3999857,
+      "sha256": "2A7547168077C3D9994AF673125E77612E8656BC0F17AD189371D7E4088F4E98",
+      "tracked_in_git": false
+    },
+    {
+      "path": "data/evidence/filings/00700/00700_2026_interim_report_en.pdf",
+      "pages": 122,
+      "bytes": 5135808,
+      "sha256": "4170F80EC8548EA2FB92EC04691A4B252A52DE20941E48FB516BAF3F98082639",
+      "tracked_in_git": false
+    }
+  ]
+}
