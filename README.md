@@ -7,6 +7,23 @@ FinPilot 是一个面向 AI 产品岗位求职展示、服务中国投资小白�
 
 项目不连接证券账户，不执行交易，也不把回测或研究状态包装成无条件买卖建议。
 
+## 新增：持仓智能分析 V1（2026-10-08）
+
+V1.1补充：每份分析生成内容快照编号与时间，保留当前持仓最近10次独立追问及失败记录；报告包含持仓明细和追问。重新生成解释失败时保留上次成功解释并明确标注。切换持仓后清除旧记录，支持普通JSON与完整JSON代码围栏输出；伪造、重复指标ID仍拒绝。数据质量事实会说明本次是否陈旧或混用价格日期。
+
+新增独立持仓分析页：CSV/自制示例 → 市值、浮动盈亏、集中度、现金占比 → 静态压力情景 → 本地口径说明或可选模型解释 → 指标追问 → Markdown导出。在原有主应用侧栏可进入 `holding analysis`；也可单独启动：
+
+```powershell
+python -m pip install -r requirements.txt
+python -m streamlit run holding_app.py --server.address 127.0.0.1 --server.port 8502 --server.headless true --browser.gatherUsageStats false
+```
+
+访问 http://127.0.0.1:8502 。示例为人为设定价格，无密钥也可运行。CSV字段说明与模型流程见 [持仓PRD](docs/PRD_holding_analysis.md)、[合规规则](docs/compliance_rules.md)、[指标定义](docs/metrics_definition.md)。模板可从“上传CSV”入口下载。
+
+侧栏支持OpenAI Compatible模型的Base URL、Model Name、API Key及连接测试。启用AI解释前需确认把指标摘要发给所配服务；密钥仅会话保存。数值由Python计算，模型只输出绑定事实ID的解释，新增数字或部分越界表达会被拦截。此校验不等于语义准确或全面合规。模型错误保留本地指标。
+
+V1仅支持人民币多头持仓，不接账户/实时行情，不根据截面表计算历史回撤，不自动交易。真实模型语义评测未完成。工程验收记录见 [V1测试记录](docs/HOLDING_V1_TESTS.md)。
+
 ## 当前可演示能力
 
 ### 资产配置

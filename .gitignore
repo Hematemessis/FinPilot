@@ -8,3 +8,6 @@ artifacts/
 tmp/
 data/evidence/filings/**/*.pdf
 *.log
+.env
+.env.*
+!.env.example
